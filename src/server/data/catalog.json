@@ -1,0 +1,14 @@
+[{
+  "name": "Vaporeon",
+  "description": "Vaporeon is a composite creature sharing physical traits of aquatic and land animals. It is a quadruped with three small toes on each foot and dark blue paw pads on the hind feet. Vaporeon's body is light blue with dark blue marking around its head and a ridge down its back.",
+  "cost": "75"
+},{
+  "name": "Jolteon",
+  "description": "Jolteon is a quadruped, mammalian Pokémon. It is covered in yellow fur with a spiky fringe around its tail and a white ruff around its neck. Its ears are large and pointed, and its eyes and small nose are black. It has slender legs and small paws, each with three toes and a pink paw pad.",
+  "cost": "88"
+},{
+  "name": "Flareon",
+  "description": "Flareon is a mammalian, quadruped Pokémon covered in short, reddish-orange fur. It has long ears, dark eyes, and a small black nose. There are three small toes and a yellow paw pad on each foot.",
+  "cost": "95"
+}]
+
