@@ -1,5 +1,6 @@
 {
   "extends": "airbnb",
+  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "mocha": true,
@@ -19,7 +20,7 @@
 
     // Need capitalized decorators
     "new-cap": 0,
-    "babel/new-cap": 1,
+    "babel/new-cap": 1
   },
   "plugins": [
     "react",

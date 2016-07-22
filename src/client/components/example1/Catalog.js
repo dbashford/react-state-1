@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import fetch from 'isomorphic-fetch';
 
+import CatalogItem from './CatalogItem';
+
 export default class ItemList extends Component {
 
   constructor(props) {
@@ -31,11 +33,15 @@ export default class ItemList extends Component {
     const isLoading = this.state.loading;
     return (
       <section className="item-list">
+        <h2>Pokemon Catalog</h2>
+
         {isLoading &&
-          <h2>Loading...</h2>
+          <h3>Loading...</h3>
         }
         {!isLoading &&
-          <h2>Gonna make a list here</h2>
+          this.state.items.map((item) =>
+            <CatalogItem key={item.id} {...this.props} {...item} />
+          )
         }
       </section>
     );

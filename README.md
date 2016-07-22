@@ -1,12 +1,6 @@
-# react-playground
+# react-state-1
+
+Demo app for NOVAReact talk given on 7/21/16.
 
 ## Running
-
-### Run lint outside of build
-`npm run lint`
-
-### Build
-`npm run build`
-
-### Run Dev server
-`npm run watch`
+`npm run dev`
